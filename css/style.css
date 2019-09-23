@@ -1,0 +1,554 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.house-one {
+  top: 100px;
+  margin: 20px;
+}
+
+.house-one, .house-one__wall {
+  position: absolute;
+}
+
+.house-one__wall {
+  position: absolute;
+  left: 22px;
+  height: 300px;
+  width: 400px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background: rgb(247, 231, 214);
+  top: 70px;
+  z-index: 1;
+}
+
+.house-one__roof {
+  position: absolute;
+  height: 0;
+  width: 310px;
+  border-bottom: 100px solid rgb(88, 46, 0);
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-radius: 20px;
+  top: 8px;
+  z-index: 2;
+}
+
+.house-one__chimney-bottom {
+  position: absolute;
+  height: 80px;
+  width: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  top: -40px;
+  left: 40px;
+  background: rgb(0, 0, 0);
+}
+
+.house-one__chimney-top {
+  position: absolute;
+  height: 20px;
+  width: 42px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  top: -40px;
+  left: 34px;
+  background: rgb(0, 0, 0);
+}
+
+.house-one__window-one, .house-one__window-two {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 5px solid rgb(88, 46, 0);
+  border-radius: 12px;
+  top: 150px;
+}
+
+.house-one__window-one {
+  position: absolute;
+  background: rgb(193, 245, 246);
+  left: 270px;
+}
+
+.house-one__window-two {
+  position: absolute;
+  background: rgb(193, 245, 246);
+  left: 50px;
+}
+
+.house-one__window-frame_direction-hor, .house-one__window-frame_direction-vert {
+  position: absolute;
+  width: 100%;
+  border: 2px solid rgb(88, 46, 0);
+  background: rgb(88, 46, 0);
+  top: 28px;
+}
+
+.house-one__window-frame_direction-vert {
+  transform: rotate(90deg);
+}
+
+.house-one__door-style {
+  position: absolute;
+  width: 60px;
+  height: 130px;
+  border: 5px solid rgb(51, 28, 3);
+  border-radius: 20px 20px 0 0;
+  left: 160px;
+  top: 160px;
+  background: rgb(147, 86, 16);
+}
+
+.house-one__handle {
+  position: absolute;
+  width: 16px;
+  height: 8px;
+  border-radius: 8px/4px;
+  background: rgb(51, 28, 3);
+  top: 80px;
+  left: 40px;
+}
+
+.house-one__door_diamond-top {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom: 40px solid rgb(215, 171, 107);
+  left: 10px;
+  top: 5px;
+  }
+
+.house-one__door_diamond-end {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom: 40px solid rgb(215, 171, 107);
+  transform: rotate(180deg);
+  left: 10px;
+  top: 65px;
+}
+
+
+
+
+.house-two {
+  top: 800px;
+  margin: 20px;
+}
+
+.house-two, .house-two__wall-bottom {
+  position: relative;
+}
+
+.house-two__wall-bottom {
+  position: relative;
+  height: 300px;
+  width: 400px;
+  border: 5px solid rgb(57, 36, 7);
+  border-radius: 10px;
+  background: rgb(091, 058, 041);
+  left: 22px;
+}
+
+.house-two__wall-top {
+  position: relative;
+  height: 0;
+  width: 0;
+  border-bottom: 150px solid rgb(091, 058, 041);
+  border-right: 410px solid transparent;
+  top: -450px;
+  left: 22px;
+}
+
+.house-two__roof {
+  position: relative;
+  height: 30px;
+  width: 460px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background: rgb(076, 047, 039);
+  transform: rotate(20deg);
+  left: 3px;
+  top: -31px;
+  z-index: 2;
+}
+
+.house-two__chimney-bottom {
+  position: relative;
+  height: 60px;
+  width: 30px;
+  background: rgb(0, 0, 0);
+  transform: rotate(-18deg);
+  left: 250px;
+  top: -40px;
+  z-index: 1;
+}
+
+.house-two__chimney-top {
+  position: relative;
+  height: 0;
+  width: 0;
+  border-bottom: 40px solid rgb(0, 0, 0);
+  border-left: 40px solid transparent;
+  transform: rotate(-20deg);
+  top: -132px;
+  left: 230px;
+}
+
+.house-two__wall-bottom_window-one {
+  position: relative;
+  height: 120px;
+  width: 40px;
+  border: 5px solid rgb(0, 0, 0);
+  background:  rgb(166, 188, 189);
+  top: 90px;
+  left: 50px;
+}
+
+.house-two__wall-bottom_window-two {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  border: 5px solid rgb(0, 0, 0);
+  background: rgb(166, 188, 189);
+  top: -80px;
+  left: 280px;
+}
+
+.house-two__wall-top_window-one {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border: 5px solid rgb(0, 0, 0);
+  background:  rgb(166, 188, 189);
+  top: 80px;
+  left: 30px;
+}
+
+.house-two__door {
+  position: relative;
+  height: 100px;
+  width: 50px;
+  border: 7px solid rgb(0, 0, 0);
+  background: rgb(076, 047, 039);
+  left: 120px;
+  top: -10px;
+}
+
+.house-two__door_window {
+  position: relative;
+  height: 94px;
+  width: 44px;
+  background: rgb(166, 188, 189);
+  top: 3px;
+  left: 3px;
+}
+
+.house-two__door_handle {
+  position: relative;
+  height: 3px;
+  width: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background: rgb(0, 0, 0);
+  bottom: 40px;
+  left: 30px;
+}
+
+.house-tree {
+  margin: 20px;
+  z-index: 3;
+}
+
+.house-three, .house-three__wall-house {
+  position: fixed;
+}
+
+.house-three__wall-house {
+  position: fixed;
+  height: 350px;
+  width: 600px;
+  border: 5px solid rgb(0, 0, 0);
+  background: rgb(240, 238, 218);
+  left: 1000px;
+}
+
+.house-three__wall-house_window-one, .house-three__wall-house_window-two, .house-three__wall-house_window-three, .house-three__wall-house_window-four {
+  position: fixed;
+  height: 80px;
+  width: 60px;
+  border: 5px solid rgb(0, 0, 0);
+  background: rgb(85, 157, 190);
+}
+
+.house-three__wall-house_window-one {
+  position: fixed;
+  top: 780px;
+  left: 1060px;
+}
+
+.house-three__wall-house_window-two {
+  position: fixed;
+  top: 780px;
+  left: 1480px;
+}
+
+.house-three__wall-house_window-three {
+  position: fixed;
+  top: 660px;
+  left: 1480px;
+}
+
+.house-three__wall-house_window-four {
+  position: fixed;
+  top: 660px;
+  left: 1060px;
+}
+
+.house-three__wall-house_window-five {
+  position: fixed;
+  position: fixed;
+  height: 70px;
+  width: 120px;
+  border: 8px solid rgb(0, 0, 0);
+  background: rgb(85, 157, 190);
+  top: 660px;
+  left: 1230px
+}
+
+.house-three__door {
+  position: fixed;
+  height: 130px;
+  width: 120px;
+  border: 8px solid rgb(0, 0, 0);
+  background: rgb(88, 46, 0);
+  top: 750px;
+  left: 1230px
+}
+
+.house-three__door_handle {
+  position: fixed;
+  height: 30px;
+  width: 5px;
+  border: 5px solid rgb(0, 0, 0);
+  background: rgb(76, 72, 77);
+  top: 820px;
+  left: 1290px;
+}
+
+.house-three__door_division {
+  position: fixed;
+  height: 130px;
+  width: 8px;
+  background: rgb(0, 0, 0);
+  top: 840 px;
+  left: 1310px;
+  z-index: 6;
+}
+
+.house-three__door_window {
+  position: fixed;
+  height: 120px;
+  width: 30px;
+  background: rgb(85, 157, 190);
+  top: 765px;
+  left: 1323px;
+}
+
+.house-three_chimney-bottom {
+  position: fixed;
+  height: 80px;
+  width: 40px;
+  border: 5px solid rgb(0, 0, 0);
+  background: rgb(240, 238, 218);
+  top: 450px;
+  left: 1100px;
+}
+
+.house-three_chimney-top {
+  position: fixed;
+  height: 0;
+  width: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 35px solid rgb(88, 46, 0);
+  border-radius: 5px;
+  top: 424px;
+  left: 1090px;
+}
+
+.house-three__roof {
+  position: fixed;
+  height: 0;
+  width: 600px;
+  border-bottom: 140px solid rgb(88, 46, 0);
+  border-left: 110px solid transparent;
+  border-right: 30px solid transparent;
+  border-radius: 20px;
+  left: 920px;
+  top: 500px;
+  z-index: 5;
+}
+
+.house-three__wall-garage {
+  position: fixed;
+  height: 300px;
+  width: 400px;
+  border: 5px solid rgb(0, 0, 0);
+  background: rgb(240, 238, 218);
+  left: 1605px;
+  top: 586px;
+}
+
+.house-three__garage_door {
+  position: fixed;
+  height: 170px;
+  width: 300px;
+  border: 8px solid rgb(0, 0, 0);
+  background: rgb(88, 46, 0);
+  left: 1650px;
+  top: 710px;
+}
+
+.house-three__garage_light {
+  position: fixed;
+  height: 20px;
+  width: 30px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  background: rgb(212, 255, 0);
+  top: 660px;
+  left: 1790px;
+}
+
+.house-three__garage_roof {
+  position: fixed;
+  height: 0;
+  width: 400px;
+  border-bottom: 100px solid rgb(88, 46, 0);
+  border-left: 30px solid transparent;
+  border-right: 80px solid transparent;
+  border-radius: 20px;
+  left: 1550px;
+  top: 544px;
+  z-index: 4;
+}
+
+.house-three__garage_window-one, .house-three__garage_window-two {
+  position: fixed;
+  width: 60px;
+  height: 30px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  background: rgb(85, 157, 190);
+  top: 750px;
+  left: 1690px;
+}
+
+.house-three__garage_window-two {
+  position: fixed;
+  top: 750px;
+  left: 1855px;
+}
+
+.house-three__garage_handle {
+  position: fixed;
+  width: 20px;
+  height: 5px;
+  border: 3px solid rgb(0, 0, 0);
+  background: rgb(76, 72, 77);
+  top: 870px;
+  left: 1800px;
+}
+
+
+
+
+.house-four {
+  margin: 20px;
+}
+
+.house-four, .house-four__wall {
+  position: static;
+}
+
+.house-four__wall {
+  position: static;
+  left: 22px;
+  height: 300px;
+  width: 400px;
+  border: 3px solid rgb(0, 0, 0);
+  background: rgb(135, 228, 131);
+  margin-left: 2300px;
+}
+
+.house-four__window-one, .house-four__window-two{
+  position: static;
+  width: 60px;
+  height: 60px;
+  border: 5px solid rgb(15, 69, 24);
+  background: rgb(113, 206, 232);
+  border-radius: 12px;
+  /* margin-left: 10px; */
+}
+
+.house-four__window-one {
+  position: static;
+  margin-left: 20px;
+  margin-top: 90px;
+}
+
+.house-four__window-two {
+  position: static;
+  margin-left: 280px;
+}
+
+.house-four__window-frame_direction-vert{
+  position: static;
+  width: 100%;
+  border: 4px solid rgb(15, 69, 24);
+  background: rgb(88, 46, 0);
+}
+
+.house-four__window-frame_direction-vert {
+  transform: rotate(90deg);
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.house-four__door {
+  position: static;
+  width: 60px;
+  height: 130px;
+  border: 8px solid rgb(15, 69, 24);
+  border-radius: 30px 30px 0 0;
+    background: rgb(5, 50, 13);
+  margin-left: 150px;
+  margin-top: -72px;
+}
+
+.house-four__door-handle {
+  position: static;
+  width: 16px;
+  height: 8px;
+  border-radius: 0 4px;
+  background: rgb(135, 228, 131);
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.house-four__roof {
+  position: static;
+  height: 0;
+  width: 0px;
+  border-bottom: 130px solid rgb(15, 69, 24);
+  border-left: 230px solid transparent;
+  border-right: 230px solid transparent;
+  border-radius: 20px;
+  margin-left: 2272px;
+  margin-top: -50px;
+}
